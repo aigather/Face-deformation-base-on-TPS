@@ -13,7 +13,7 @@ link_directories(
 	${CMAKE_SOURCE_DIR}/libfacedetect
 )
 
-file(GLOB source_src 源代码/*.cpp 源代码/*.h)
+file(GLOB source_src src/*.cpp src/*.h)
 
 add_executable(Face-deformation-base-on-TPS
 	${source_src}
